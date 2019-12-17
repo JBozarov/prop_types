@@ -12,6 +12,7 @@ const Movies = ({movie}) => (
          <Link to="/test" >
          <img src={`${POSTER_PATH}${movie.poster_path}`} alt={movie.title} />
          </Link>
+         <div> Hi movies </div>
          <h2>{movie.id}</h2> 
       </div>
   )
